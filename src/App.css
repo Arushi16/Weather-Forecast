@@ -1,6 +1,7 @@
 .wrapper{
   background: linear-gradient(to top, #0bd1eb94, #0bd1eb23);
   display: flex;
+  height: 100%;
 }
 
 .container{
@@ -10,18 +11,15 @@
 }
 
 .weatherFinder{
-  text-orientation: upright;
-  writing-mode: vertical-rl;
+  /* text-orientation: upright; */
+  /* writing-mode: vertical-rl; */
   font-weight: bolder;
-  font-size: 26px;
+  font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
   padding: 20px;
-  margin: 20px;
+  margin: 18px;
+  display: inline-block;
   border: 1px solid #496f94;
-  /* background: -webkit-linear-gradient(#0753a0,rgba(0, 0, 0, 0.562));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent; */
   border-radius:  0px 70px 0px 70px;
   box-shadow:
       0 1px 1px #496f94,
@@ -73,8 +71,6 @@ input:focus{
   font-size: 15px;
   width: 100%;
   cursor: pointer;
-  /* background-color: #f16051; */
-  /* color: #fff; */
   font-weight: 100;
   border-radius: 5px 5px;
 }
@@ -89,8 +85,6 @@ input:focus{
   font-size: 15px;
   width: 100%;
   cursor: pointer;
-  /* background-color: #f16051; */
-  /* color: #fff; */
   font-weight: 100;
   border-radius: 5px 5px;
 }
@@ -130,7 +124,6 @@ ul {
 .data{
   border: 1px solid rgba(29, 29, 2, 0.055);
   box-shadow: 2px 2px gray;
-  /* margin: 20px; */
   width: 150px;
   align-items: center;
   justify-content: center;
